@@ -298,9 +298,9 @@ export default function Dashboard() {
               <div className="bg-white/20 rounded-full p-1"><WalletCards size={14} strokeWidth={3} /></div>
               WITHDRAW
             </a>
-            <a href="/rajan-market" className="flex items-center justify-center gap-2 bg-[#e0e0e0] text-[#333] py-3 rounded-2xl font-extrabold text-[13px] shadow-md border border-gray-300">
+            <a href="/starline" className="flex items-center justify-center gap-2 bg-[#e0e0e0] text-[#333] py-3 rounded-2xl font-extrabold text-[13px] shadow-md border border-gray-300">
               <div className="bg-black/10 rounded-full p-1 text-black"><Play size={14} fill="currentColor" /></div>
-              RAJAN MARKET
+              STARLINE MARKET
             </a>
             <a href={`https://wa.me/${site?.whatsapp_number}`} className="flex items-center justify-center gap-2 bg-[#007b70] text-white py-3 rounded-2xl font-extrabold text-[13px] shadow-md border border-[#009688] active:scale-95 transition-all">
               <div className="bg-white/20 rounded-full p-1"><BsWhatsapp size={14} /></div>
@@ -313,7 +313,7 @@ export default function Dashboard() {
         <div className="px-4 -mt-4 relative z-10">
           <div className="bg-white border border-gray-100 shadow-lg rounded-full py-2 px-6 overflow-hidden">
             <p className="whitespace-nowrap text-[#007b70] text-xs font-bold animate-marquee-fast uppercase tracking-wider">
-              {site?.dashboard_notification_line || "Welcome to Rajan Matka - Trust and Speed Guaranteed!"}
+              {site?.dashboard_notification_line || "Welcome to Kalyan Ratan - Trust and Speed Guaranteed!"}
             </p>
           </div>
         </div>

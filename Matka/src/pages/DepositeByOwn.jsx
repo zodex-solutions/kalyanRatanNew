@@ -42,7 +42,7 @@ export default function DepositeByOwn({ onRequestCreated }) {
         key: key,
         amount: razorAmount,
         currency: "INR",
-        name: "Rajan Matka",
+        name: "Kalyan Ratan",
         description: "Wallet Points Deposit",
         order_id: order_id,
         handler: function (response) {

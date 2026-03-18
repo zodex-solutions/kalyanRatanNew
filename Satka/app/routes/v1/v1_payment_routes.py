@@ -12,8 +12,8 @@ from ...models import Transaction
 router = APIRouter(prefix="/payment", tags=["Payment"])
 
 client = razorpay.Client(auth=(
-    "rzp_test_SNylmVYadLGmJy",
-    "GiHFyzHTxjq7J1s7rkOUMneJ"
+    "rzp_live_SSmero1o2ZLSxT",
+    "fgwd2UGMa2nZUK58RruE6Wgf"
 ))
 
 
